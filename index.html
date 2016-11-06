@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Progressive Web App Shell</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="description" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="favicon.ico" />
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+  <link rel="stylesheet" href="styles/app.css" media="screen" title="no title">
+</head>
+
+<body ng-app="pwashell">
+
+  <div layout="column" layout-fill ng-controller="HomeController as vm" ng-cloak>
+
+    <div class="ribbon-wrapper-green"><div class="ribbon-green">beta</div></div>
+
+    <md-toolbar md-scroll-shrink>
+      <div class="md-toolbar-tools">
+        <h3>
+          <img src="images/icons/icon-128-128.png" alt="pwashell" width="24" />
+          <span>{{vm.appTitle}}</span>
+        </h3>
+      </div>
+    </md-toolbar>
+
+    <md-content flex>
+      <md-card>
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Sample card</span>
+            <span class="md-subhead">Subtitle goes here</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          by <a href="https://github.com/lennonjesus" target="_blank">@LennonJesus</a>
+        </md-card-content>
+      </md-card>
+      <md-card-actions layout="row" layout-align="end center" >
+        <a href="https://github.com/lennonjesus/angular-material-pwa-shell" target="_blank" class="md-button md-primary">View source</a>
+        <md-button class="md-warn">Cancel</md-button>
+      </md-card-actions>
+    </md-content>
+
+  </div>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="build/bundle.js"></script>
+
+</body>
+
+</html>
