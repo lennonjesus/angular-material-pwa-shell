@@ -1,4 +1,4 @@
-var cachePrefix = 'tabelafipe'
+var cachePrefix = 'pwashell'
 var cacheVersion = 1;
 var cacheName = cachePrefix + '-cache-v' + cacheVersion;
 
