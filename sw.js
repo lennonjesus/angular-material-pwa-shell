@@ -1,5 +1,5 @@
 var cachePrefix = 'pwashell'
-var cacheVersion = 1;
+var cacheVersion = 2;
 var cacheName = cachePrefix + '-cache-v' + cacheVersion;
 
 var filesToCache = [
@@ -12,7 +12,7 @@ var filesToCache = [
   'https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js',
   'https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js',
   'index.html',
-  'fipepwa.ico',
+  'favicon.ico',
   'build/bundle.js',
   'styles/app.css'
 ];
