@@ -1,6 +1,6 @@
 {
-  "name": "Tabela FIPE",
-  "short_name": "Tabela FIPE",
+  "name": "PWA Shell",
+  "short_name": "PWA Shell",
   "start_url": "index.html",
   "display": "fullscreen",
   "background_color": "#3E4EB8",
