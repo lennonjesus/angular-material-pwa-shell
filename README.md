@@ -1,8 +1,9 @@
 # Angular Material PWA Shell
-[Site](https://lennonjesus.github.io/angular-material-pwa-shell)
 
-An Angular Material Design Progressive Web Application Base Shell with offline-first concepts
-and cache http requests.
+[View demo](https://lennonjesus.github.io/angular-material-pwa-shell)
+
+An Angular Material Design Progressive Web Application Base Shell with
+offline-first concepts and cache http requests.
 
 ### Get
 
@@ -30,12 +31,21 @@ npm run build
 ### Help! :-)
 
 [Pull
-Requests](https://github.com/lennonjesus/angular-material-pwa-shell/pulls) welcome! Thanks!
+Requests](https://github.com/lennonjesus/angular-material-pwa-shell/pulls)
+welcome! Thanks!
+
+### Star
+
+If you liked this project,  give it a :star:!
 
 ### TODO
 
 - [ ] minify html
 - [ ] minify stylesheet
+
+### Author
+
+Coded with :heart: by [Lennon Jesus](https://github.com/lennonjesus)
 
 ## License
 
