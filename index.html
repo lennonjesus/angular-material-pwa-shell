@@ -27,11 +27,28 @@
     <md-toolbar md-scroll-shrink>
       <div class="md-toolbar-tools">
         <h3>
+          <md-icon md-font-icon="material-icons" ng-click="vm.toggleMenu()">menu</md-icon>
           <img src="images/icons/icon-128-128.png" alt="pwashell" width="24" />
           <span>{{vm.appTitle}}</span>
         </h3>
       </div>
     </md-toolbar>
+
+    <md-sidenav class="md-sidenav-left" md-component-id="left" md-whiteframe="4">
+
+      <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Options</h1>
+      </md-toolbar>
+
+      <md-content layout-margin>
+        <p>
+          Click outside menu to close...
+        </p>
+        <md-button ng-click="vm.toggleMenu()" class="md-accent">
+          ...or click here.
+        </md-button>
+      </md-content>
+    </md-sidenav>
 
     <md-content flex>
       <md-card>
